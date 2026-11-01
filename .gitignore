@@ -13,3 +13,14 @@ build/
 
 # Writing drafts are kept out of the repository
 00-Writing/
+
+# Local-only multi-judge submission tool
+/JudgeSubmit/
+
+# Local scratch input files
+00_00.txt
+
+# Local environment files; keep the example template shareable
+.env
+.env.*
+!.env.example

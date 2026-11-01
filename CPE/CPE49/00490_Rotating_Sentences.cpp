@@ -13,9 +13,7 @@ int main(){
 	
 	while(getline(cin,s)){
 		line.push_back(s);
-	}
-	for(i=0;i<line.size();i++){
-		if(line[i].size()>maxLen){
+		if(s.size()>maxLen) {
 			maxLen=line[i].size();
 		}
 	}

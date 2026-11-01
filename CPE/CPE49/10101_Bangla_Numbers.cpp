@@ -80,7 +80,7 @@ int main(){
             cout << "  " << count << ". ";
         }else if(count < 1000){
             cout << " " << count << ". ";
-        }else if(count < 10000){
+        }else if(count <= 10000){
             cout << "" << count << ". ";
         }
         

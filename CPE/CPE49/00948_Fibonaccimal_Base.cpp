@@ -7,8 +7,7 @@ using namespace std;
 int main(){
 	
 	vector<long long> n={1,2};
-	long long N,i,j,line,flag;
-	long long DEC_BASE;
+	long long N,i,j,line,flag,DEC_BASE;
 	string FIB_BASE;
 	
 	cin>>line;
